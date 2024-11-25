@@ -1,0 +1,9 @@
+
+
+I've tried everything and I can't get this to what I want:I want to stop the Alt + Key modifiers from interfering but I still want to use Alt to trigger the menu bar (temporarily, without having to right click).
+
+This will free up 7 shortcut keys and also give me access to the menu bar so I can do macros with it from external applications.Has anybody got that to work?
+
+Basically i tried this but it doesn't work. Hotkeys are still interfered by FF.ui.key.menuAccessKey = 0ui.key.menuAccessKeyFocuses = true
+
+Edit: Figured this out. Set menuAccessKey to 17 and AccessKeyFocuses to false. This will redirect the accesskey to Control and also force it to not trigger. Anyway, it at least doesn't intefere with the alt and other default ctrl shortcuts still work.
