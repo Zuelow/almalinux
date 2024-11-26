@@ -1,0 +1,8 @@
+I would like to also bring attention to the new experimental release (soon the next beta), which does not rely on libappindicator or mono.
+
+You can get the RPM packages from here:
+https://updates.duplicati.com/experimental
+
+With that is should be a matter of just running:
+
+yum localinstall duplicati-2.1.0.0_experimental_2024-11-15-linux-x64-gui.r
